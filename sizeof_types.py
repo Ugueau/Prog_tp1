@@ -1,7 +1,7 @@
 import sys
 
 
-print("int : ", sys.getsizeof(int))
+print("int : ", sys.getsizeof(int)) 
 print("float : ", sys.getsizeof(float))
 print("bool : ", sys.getsizeof(bool))
 print("str : ", sys.getsizeof(str))
