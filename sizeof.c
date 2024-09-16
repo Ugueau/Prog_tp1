@@ -3,6 +3,7 @@
 
 int main () {
     printf("=== Signed types : ===\n");
+    //Print size of char and cast it into int. Same for each types
     printf("Size of char : %d \n", (int)(sizeof(char)));
     printf("Size of short : %d \n", (int)(sizeof(short)));
     printf("Size of int : %d \n", (int)(sizeof(int)));
