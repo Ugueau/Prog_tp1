@@ -15,6 +15,7 @@ int main()
     printf("Enter operator :\n");
     scanf(" %c", &op);
 
+    //Just checking what operator to do ...
     switch (op)
     {
     case '+':
