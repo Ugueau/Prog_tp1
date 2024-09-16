@@ -1,4 +1,5 @@
 #include <stdio.h>
+//I use this libs to get max value of most of types
 #include <limits.h>
 #include <float.h> 
 
@@ -10,16 +11,14 @@ int main() {
     unsigned short ushrt = USHRT_MAX;
     int i = INT_MAX;
     unsigned int ui = UINT_MAX;
-    
-    long int li = 0x1111111111111111;  // Truncated to fit in long int
-    unsigned long int uli = 0x1111111111111111;
-    long long int lli = 0x1111111111111111LL;  // Using LL for long long constants
-    
+    long int li = 0x7FFFFFFF; // Don't find the max const for these ones, I'm not sure thats the exactly good amount of F but its work
+    unsigned long int uli = 0xFFFFFFFF;
+    long long int lli = 0xFFFFFFFFFFFFFFFFLL; // LL to specify that it is long long int
     float f = FLT_MAX;
     double d = DBL_MAX;
     long double ld = LDBL_MAX;
 
-    // Print all variables with their names and values
+    // Print all variables
     printf("char c = '%c'\n", c);
     printf("signed char sc = %d\n", sc);
     printf("unsigned char uc = %u\n", uc);
@@ -30,9 +29,8 @@ int main() {
     printf("long int li = %ld\n", li);
     printf("unsigned long int uli = %lu\n", uli);
     printf("long long int lli = %lld\n", lli);
-    printf("float f = %e\n", f);        // Scientific notation for float
-    printf("double d = %e\n", d);       // Scientific notation for double
-    printf("long double ld = %Le\n", ld);  // Scientific notation for long double
-
+    printf("float f = %e\n", f);        // Scientific notation from now to end
+    printf("double d = %e\n", d);
+    printf("long double ld = %Le\n", ld); //Long scientific notation else compilator explosion
     return 0;
 }
