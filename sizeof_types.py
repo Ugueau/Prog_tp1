@@ -1,10 +1,10 @@
 import sys
 
 
-print("int : ", sys.getsizeof(int)) 
-print("float : ", sys.getsizeof(float))
-print("bool : ", sys.getsizeof(bool))
-print("str : ", sys.getsizeof(str))
-print("list : ", sys.getsizeof(list))
-print("tuple : ", sys.getsizeof(tuple))
-print("dict : ", sys.getsizeof(dict))
+print("int : ", sys.getsizeof(1)) 
+print("float : ", sys.getsizeof(1.1))
+print("bool : ", sys.getsizeof(True))
+print("str : ", sys.getsizeof('a'))
+print("list : ", sys.getsizeof([1,2,3,4,"aze"]))
+print("tuple : ", sys.getsizeof((1,2,3,4,"aze")))
+print("dict : ", sys.getsizeof({"Hugo" : "Millot","age" : 21,"sexe" : 'M'}))
