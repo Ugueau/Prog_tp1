@@ -1,3 +1,8 @@
+/*
+controles.c
+Hugo MILLOT | Maël CHALON
+Check multiples condition on a range of numbers
+*/
 #include <stdio.h>
 
 int main () {

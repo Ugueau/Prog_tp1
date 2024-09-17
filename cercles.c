@@ -1,3 +1,8 @@
+/*
+cercles.c
+Hugo MILLOT | Maël CHALON
+Give stats about a circle that the user choose
+*/
 #include <stdio.h>
 #define PI 3.14159
 

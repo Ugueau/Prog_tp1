@@ -1,3 +1,8 @@
+/*
+variables.c
+Hugo MILLOT | Maël CHALON
+Show significant value of different types
+*/
 #include <stdio.h>
 //I use this libs to get max value of most of types
 #include <limits.h>

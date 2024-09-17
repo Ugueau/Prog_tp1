@@ -1,3 +1,8 @@
+/*
+sizeof.c
+Hugo MILLOT | Maël CHALON
+Give size of all types
+*/
 #include <stdio.h>
 #include <string.h>
 
