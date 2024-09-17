@@ -1,3 +1,8 @@
+/*
+calculs.c
+Hugo MILLOT | Maël CHALON
+Operate an asked calculation
+*/
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,8 @@
+/*
+operateurs.c
+Hugo MILLOT | Maël CHALON
+Apply different operator
+*/
 #include <stdio.h>
 
 int main () {

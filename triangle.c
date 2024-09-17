@@ -1,3 +1,8 @@
+/*
+triangle.c
+Hugo MILLOT | Maël CHALON
+Draw a triangle on console
+*/
 #include <stdio.h>
 
 int main() {
