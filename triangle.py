@@ -1,3 +1,8 @@
+# triangle.py
+# Mael CHALON | Hugo MILLOT
+# dessiner un triangle dans le terminal
+
+
 # on récupère l'entrée utilisateur
 import sys
 

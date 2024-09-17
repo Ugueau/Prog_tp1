@@ -1,3 +1,8 @@
+# controle.py
+# Mael CHALON | Hugo MILLOT
+# récupérer la liste des nombre de 1 a 1000 répondant a certaines conditions
+
+
 
 # on créé 3 liste pour stocker les résutats de chaque condition et ne faire qu'une seule boucle 
 liste_controle_1:list = []

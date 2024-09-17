@@ -1,3 +1,7 @@
+# sizeof_types
+# Mael CHALON | Hugo MILLOT
+# récupérer la taille de tous les types de variables de python
+
 import sys
 
 

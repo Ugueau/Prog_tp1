@@ -1,3 +1,8 @@
+# calculs.py
+# Mael CHALON | Hugo MILLOT
+# faire des calculs simple de manière interactif
+
+
 import sys
 
 

@@ -1,3 +1,8 @@
+# Binaire.py
+# Mael CHALON | Hugo Millot
+# transformer un entier en binaire
+
+
 # pour calculer un nombre entier en binaire il sufit d'enchainer les divisions par deux
 
 # on récupère un entier donné par l'utilisateur

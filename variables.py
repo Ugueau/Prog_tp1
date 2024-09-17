@@ -1,3 +1,9 @@
+# variables.py
+# Mael CHALON | Hugo MILLOT
+# montrer la représentation de toutes les variables de python
+
+
+
 int:int = 1 #déclaration d'une variable INT
 float:float = 1.1 #déclaration d'une variable FLOAT
 str:str = "A" #déclaration d'une variable STR

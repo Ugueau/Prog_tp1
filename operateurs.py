@@ -1,3 +1,8 @@
+# operateur.py
+# Mael CHALON | Hugo MILLOT
+# utiliser tous les opérateurs de calculs
+
+
 a:int = 16
 b:int = 3
 
