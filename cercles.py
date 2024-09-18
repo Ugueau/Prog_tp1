@@ -11,7 +11,7 @@ area:float = math.pi * radius * radius # calcul de l'aire
 
 perimeter:float = math.pi * radius * 2 # calcul du perimettre
 
-print("area = ", area, ", perimeter = ", perimeter) # affichage des resultats obtenus
+print(f"area = {area}, perimeter = {perimeter}") # affichage des resultats obtenus
 
 
 

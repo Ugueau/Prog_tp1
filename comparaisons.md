@@ -10,7 +10,7 @@
   ```
 - **Python** : Utilise `print()` avec f-strings pour un formatage flexible.
   ```python
-  print(f"J'ai {age} ans")
+  print(f"area = {area}, perimeter = {perimeter}")
   ```
 
 ### Syntaxe et mémoire
@@ -31,8 +31,7 @@
 
 ### Annotations de type en Python
 ```python
-def ajouter(a: int, b: int) -> int:
-    return a + b
+radius:float
 ```
 
 ## 3. Opérateurs
@@ -68,7 +67,7 @@ def ajouter(a: int, b: int) -> int:
   ```
 - **Python** : f-strings.
   ```python
-  print(f"J'ai {age} ans")
+  print(f"area = {area}, perimeter = {perimeter}")
   ```
 
 ### Conversion de types
@@ -78,7 +77,7 @@ def ajouter(a: int, b: int) -> int:
   ```
 - **Python** : Utilisation de `int()`, `float()`, etc.
   ```python
-  b = float(a) / 3
+  radius:float = float(input("Enter the radius of the circle: "))
   ```
 
 ### Conversion en binaire
